@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/logoMascota.jpg" />
+    <style>
+        .content-wrapper {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-scroller" style="display: block; max-width: 100%; height: auto;">
+        <div>
+            <div class="row w-100 m-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <i class="mdi mdi-paw mdi-36px mr-2"></i>
+                        <span class="d-inline-block" style="font-size: 18px;">Registro de Tenencia Responsable de
+                            Mascotas y Animales de Compañía</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#requisitos">Requisitos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paginas/preguntasFrecuentes.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paginas/consulta.html">Consulta de Animales Extraviados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paginas/solicitudes.html">Mis Solicitudes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="card col-lg-12 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h1>
+                                SOLICITA EL REGISTRO DE TU MASCOTA
+                            </h1>
+                            <p>
+                                Ya se encuentra disponible el Registro donde puedes solicitar el ingreso de tu mascota
+                            </p>
+                            <button class="btn btn-warning" style="text-align: center;"
+                                onclick="window.location.href='Registrar.html'">
+                                <span class="mdi mdi-paw mdi-36px mr-2" style="vertical-align: middle;"></span>
+                                <span style="vertical-align: middle;">Solicita el registro de tu mascota</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="requisitos" class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="card col-lg-12 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h1>
+                                REQUISITOS
+                            </h1>
+                            <p>
+                                Revisa aquí los requisitos para solicitar el registro de tu mascota y descarga los
+                                documentos necesarios.
+                            </p>
+                            <button class="btn btn-warning" style="text-align: center;"
+                                onclick="window.location.href='assets/pdf/formulario.pdf'">
+                                <span class="mdi mdi-file-pdf mdi-36px mr-2" style="vertical-align: middle;"></span>
+                                <span style="vertical-align: middle;">Descargar los requisitos aquí</span>
+                            </button>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div id="requisitos" class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="col-12 grid-margin">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Comprobante de Existencia para registro</h4>
+                                <form class="form-sample">
+                                    <p class="card-description"> MASCOTAS Y ANIMALES DE COMPAÑIA </p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Nombre</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Especie</label>
+                                                <div class="col-sm-4">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-chek-input" name="especie"
+                                                                id="especie1" value="" checked> Perro
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="especie"
+                                                                id="especie2" value="option2"> Gato </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Sexo</label>
+                                                <div class="col-sm-4">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="genero"
+                                                                id="genero1" value="" checked> Macho </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="genero"
+                                                                id="genero2" value="option2"> Hembra </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Esterilizado</label>
+                                                <div class="col-sm-4">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="esterilizado" id="esterilizado1" value="" checked>
+                                                            Si </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="esterilizado" id="esterilizado2" value="option2">
+                                                            No </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group row">
+                                                <label class="col-sm-4 col-form-label">Raza</label>
+                                                <div class="col-sm-6">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="form-group row">
+                                                <label class="col-sm-2 col-form-label">Modo de Obtencion</label>
+                                                <div class="col-sm-2">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="obtencion" id="obtencion1" value="" checked>
+                                                            Recogido </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="obtencion" id="obtencion2" value="option2">
+                                                            Reubicacion </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="obtencion" id="obtencion3" value="option3"
+                                                                checked>
+                                                            Regalo </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="obtencion" id="obtencion4" value="option4">
+                                                            Nacido en Casa </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="obtencion" id="obtencion4" value="option5">
+                                                            Compra </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-description"> (*si su mascota es adoptada marque recogido o
+                                                reubicado)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Color</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Fecha de Nacimiento</label>
+                                                <div class="col-sm-9">
+                                                    <input id="birthday-datepicker" class="form-control"
+                                                        placeholder="dd/mm/yyyy" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group row">
+                                                <label class="col-sm-2 col-form-label">Razon Tenencia</label>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon1" value="" checked>
+                                                            Compañía </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon2" value="option2">
+                                                            Asistencia </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon3" value="option3" checked>
+                                                            Terapia </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon4" value="option4">
+                                                            Trabajo </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon5" value="option5">
+                                                            Seguridad </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon6" value="option6">
+                                                            Deporte </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon7" value="option7">
+                                                            Exposicion </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon8" value="option8">
+                                                            Reproduccion </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input" name="razon"
+                                                                id="razon9" value="option9">
+                                                            Caza </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-description"> DATOS MÉDICO VETERINARIO o TÉCNICO VETERINARIO </p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Nombres</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Apellidos</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Rut</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Especialidad</label>
+                                                <div class="col-sm-3">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="especialidad" id="especialidad1" value="" checked>
+                                                            Medico Veterinario </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="form-check form-check-warning">
+                                                        <label class="form-check-label" style="color: gold;">
+                                                            <input type="radio" class="form-check-input"
+                                                                name="especialidad" id="especialida2" value="option2">
+                                                            Tecnico Veterinario </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Comuna</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Fecha procedimiento</label>
+                                                <div class="col-sm-9">
+                                                    <input id="birthday-datepicker" class="form-control"
+                                                        placeholder="dd/mm/yyyy" style="color: orange;" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <div class="col-sm-9">
+                                                    <textarea class="form-control" id="exampleTextarea1" rows="4"
+                                                        style="color: orange;"></textarea>
+                                                    <label class="col-sm-3 col-form-label">Firma y Timbre</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+
+        <!-- page-body-wrapper ends -->
+        <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+        <!-- endinject -->
+        <!-- Plugin js for this page -->
+        <!-- End plugin js for this page -->
+        <!-- inject:js -->
+        <script src="assets/js/off-canvas.js"></script>
+        <script src="assets/js/hoverable-collapse.js"></script>
+        <script src="assets/js/misc.js"></script>
+        <script src="assets/js/settings.js"></script>
+        <script src="assets/js/todolist.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    </div>
+    <footer class="footer">
+        <div class="row">
+            <div class=col-md-4>
+                <center>
+                    <img src="assets/images/imagen.jpg" alt="" style="max-width: 200px;">
+                </center>
+            </div>
+            <div class=col-md-4>
+                <p>Link de Interes</p>
+                <a href="">Politicas de Privacidad</a>
+                <a href="">Ley 21.020</a>
+            </div>
+            <div class=col-md-4>
+                <p>Sigue el Programa de Tenencia Responsable de Animales de Compañía (PTRAC)</p>
+                <a href="" class="mdi mdi-instagram mdi-36px mr-2"></a><a href=""
+                    class="mdi mdi-facebook mdi-36px mr-2"></a><a href="" class="mdi mdi-twitter mdi-36px mr-2"></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
